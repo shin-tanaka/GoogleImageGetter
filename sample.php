@@ -18,5 +18,5 @@ $urls = $gig->scrapingImage($word);
 
 //画像をダウンロードする
 foreach ($urls as $url) {
-	$iu->saveFile($url, $filePath);
+	$gig->saveFile($url, $filePath);
 }
